@@ -1,0 +1,64 @@
+@import '../../breakpoints/breakpoints';
+.footer-container {
+  display: flex;
+  background-color: #111111;
+  color: #fff;
+  width: 100%;
+  height: 150px;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  z-index: -999;
+  .left-footer {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 13px;
+    // @include xl {
+    //   font-size: 10px;
+    // }
+    @include l {
+      font-size: 8px;
+    }
+    .first-left {
+      font-weight: 700;
+    }
+    .second-left,
+    .third-left {
+      font-weight: 700;
+      color: #7e7e7e;
+    }
+    p:hover {
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+  .right-footer {
+    flex: 5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    @include m {
+      flex: 0;
+    }
+    .social-list {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      gap: 20px;
+      .social-item {
+        padding: 10px;
+        color: #7e7e7e;
+        @include m {
+          display: none;
+        }
+      }
+      .social-item:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+}

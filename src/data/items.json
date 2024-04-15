@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name":"Nike Structure 25",
+        "description": "Women's Road Running Shoes",
+        "price": 219,
+        "imgUrl": "./imgs/product1.png"
+    },
+    {
+        "id": 2,
+        "name":"Nike Structure 25 Premium",
+        "description": "Men's Road Running Shoes",
+        "price": 265,
+        "imgUrl": "./imgs/product2.png"
+    },
+    {
+        "id": 3,
+        "name":"Nike Structure 25 Premium",
+        "description": "Men's Road Running Shoes",
+        "price": 229,
+        "imgUrl": "./imgs/product3.png"
+    }, 
+    {
+        "id": 4,
+        "name":"LeBron XXI EP",
+        "description": "Basketball Shoes",
+        "price": 289,
+        "imgUrl": "./imgs/product4.png"
+    },
+    {
+        "id": 5,
+        "name":"LeBron XXI EP Premum",
+        "description": "Football Shoes",
+        "price": 294,
+        "imgUrl": "./imgs/product5.png"
+    },
+    {
+        "id": 6,
+        "name":"LeBron XXI AD",
+        "description": "Badminton Shoes",
+        "price": 184,
+        "imgUrl": "./imgs/product6.png"
+    },
+    {
+        "id": 7,
+        "name":"Nike Structure 25 Premium",
+        "description": "Men's Road Running Shoes",
+        "price": 265,
+        "imgUrl": "./imgs/product2.png"
+    },
+    {
+        "id": 8,
+        "name":"Nike Structure 25",
+        "description": "Women's Road Running Shoes",
+        "price": 219,
+        "imgUrl": "./imgs/product1.png"
+    },
+    {
+        "id": 9,
+        "name":"Nike Structure 25 Premium",
+        "description": "Men's Road Running Shoes",
+        "price": 229,
+        "imgUrl": "./imgs/product3.png"
+    }
+]

@@ -1,0 +1,40 @@
+@import '../../breakpoints/breakpoints';
+.slogan-container {
+  display: flex;
+  .left {
+    flex: 2;
+    @include l {
+      flex: 0;
+    }
+  }
+  .slogan {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 80px;
+    gap: 20px;
+    @include l {
+      align-items: center;
+    }
+    .slogan-title {
+      font-weight: 900;
+      font-size: 60px;
+    }
+    .slogan-content,
+    .more {
+      font-size: 18px;
+      @include l {
+        text-align: center;
+      }
+    }
+  }
+  .right {
+    flex: 3;
+    @include l {
+      flex: 0;
+    }
+  }
+}

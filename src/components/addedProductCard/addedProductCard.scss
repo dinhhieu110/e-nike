@@ -1,0 +1,38 @@
+.addedCard-container {
+  display: flex;
+  gap: 300px;
+  .added-product {
+    display: flex;
+    flex: 8;
+    gap: 20px;
+    .thumbnail {
+      flex: 5;
+      width: 100%;
+      img {
+        cursor: pointer;
+        object-fit: fill;
+      }
+    }
+
+    .product-detail {
+      flex: 5;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .icons {
+        display: flex;
+        justify-content: space-between;
+        .increase,
+        .decrease,
+        .remove-icon {
+          background-color: #fff;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .product-price {
+    flex: 2;
+  }
+}
